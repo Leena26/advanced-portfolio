@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+header {
+    background-image: url("/media/matt-wang-xfN5Gcqi3ho-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading {
+    background-color: hsl(0, 0%, 10%);
+    color: white;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+.main-heading h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+}
+
+.section-one {
+    background-color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.section-one-h {
+    margin-bottom: 10px;
+    font-family: 'Lobster', cursive;
+}
+
+.section-one-d {
+    max-width: 1200px;
+}
+
+.section-one-d a {
+    text-decoration: none;
+}
+
+.section-one-d a:hover {
+    color: orange;
+}
+
+.section-two {
+    background-image: url('/media/edwin-andrade-4V1dC_eoCwg-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two h1 {
+    font-size: 45px;
+    color: hsl(229, 56%, 60%);
+    font-family: 'Lobster', cursive;
+}
+
+.section-three {
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.section-three-h {
+    margin-bottom: 10px;
+    font-family: 'Lobster', cursive;
+}
+
+.section-three-d {
+    max-width: 1200px;
+}
+
+.section-three-d a {
+    text-decoration: none;
+}
+
+.section-three-d a:hover {
+    color: orange;
+}
+
+.section-four {
+    background-image: url('/media/jeshoots-com-eCktzGjC-iU-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-four h1 {
+    font-size: 45px;
+    color: hsl(229, 56%, 60%);
+    font-family: 'Lobster', cursive;
+}
+
+.section-five {
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.section-five-h {
+    margin-bottom: 10px;
+    font-family: 'Lobster', cursive;
+}
+
+.section-five-d {
+    max-width: 1200px;
+}
+
+footer {
+    background-image: url("/media/luca-bravo-NQDRHOqCXUA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-footer {
+    background-color: hsl(0, 0%, 1%);
+    color: white;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+.main-footer h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1224px) {
+    .main-heading h3 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:1024px) {
+    .main-heading h3 {
+        font-size: 32px;
+    }
+    .main-footer h3 {
+        font-size: 32px;
+    }
+    .section-one {
+        height: 470px;
+    }
+    .section-three {
+        height: 300px;
+    }
+    .section-five {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .main-heading h3 {
+        font-size: 30px;
+    }
+    .main-heading {
+        width: 300px;
+    }
+    .main-footer h3 {
+        font-size: 30px;
+    }
+    .main-footer {
+        width: 300px;
+    }
+    .section-one {
+        height: 400px;
+    }
+    .section-two h1 {
+        font-size: 35px;
+    }
+    .section-three {
+        height: 300px;
+    }
+    .section-four h1 {
+        font-size: 30px;
+    }
+    .section-five {
+        height: 200px;
+    }
+}

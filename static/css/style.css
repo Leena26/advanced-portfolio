@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 * {
-    padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
 }
 
 body {
@@ -111,7 +110,7 @@ header {
 }
 
 .section-four {
-    background-image: url('/pads.jpg');
+    background-image: url("/jeshoots-com-eCktzGjC-iU-unsplash.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

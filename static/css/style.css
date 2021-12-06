@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-image: url('../carsimage.jpg');
+    background-image: url('/carsimage.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -65,7 +65,7 @@ header {
 }
 
 .section-two {
-    background-image: url('../graduated.jpg');
+    background-image: url('/graduated.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -111,7 +111,7 @@ header {
 }
 
 .section-four {
-    background-image: url('../pads.jpg');
+    background-image: url('/pads.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -149,7 +149,7 @@ header {
 }
 
 footer {
-    background-image: url("../dreams.jpg");
+    background-image: url("/dreams.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
